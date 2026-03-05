@@ -1,0 +1,36 @@
+task 1
+game = "fifa"
+print("let's play", game)
+TeamOneScore = 0
+TeamTwoScore = 0
+print("The game has now begun")
+print("The score is" ,TeamOneScore, TeamTwoScore)
+
+1.  Explain here what this code does:
+Prints the score is 0-0
+
+
+	2. Looking at the code above, answer the following questions
+
+2a. The name of a function used in the code above is:	print
+2b. The name of a variable used in the code above is:	TeamOneScore
+2c. The name of a different variable used in the code above is:	game
+
+task 2
+name = input("Enter your name: ")
+print("hello", name)
+
+task 3 
+age=int(input("enter your name"))
+print("you are", age)
+
+  What does the code above do:
+Asks user for age and prints it
+
+task 4
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print("Hello " ,  name , " You are, " , age)
+
+  What does the code above do:
+Asks user for age and name and prints it
