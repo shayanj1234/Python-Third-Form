@@ -45,7 +45,7 @@
 	Answer:
   item = input("name an item")
   price = float(input("how much does it cost"))
-	discount = price * 0.9
+discount = round(price * 0.9,2)
   print("the new price is", discount)
 	
 	
@@ -57,5 +57,10 @@
 	
 	
 	Answer:
-  initial = input("what does your name begin with
+initial = input("what does your name begin with?")
+age = int(input("how old are you"))
+if age > 18:
+	print("access granted")
+else:
+	print("access denied")
   
