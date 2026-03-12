@@ -1,0 +1,61 @@
+	2. Match the value to its Python data type.
+		○ "Game Over" is a string
+		○ 42 is an integer
+		○ 0.5 is a float
+		○ False is a boolean
+	
+	
+
+	
+	1. In Python, we use the int() function to turn a String into a whole number, and the float() function to turn a String into a decimal number.
+	
+	
+
+	
+	3. Which of these is a valid character representation?
+		A) char = A
+		B) char = "A"
+		C) char = [A]
+	
+	Answer: b
+	
+	
+	4. A Boolean value in Python must always start with a capital letter (e.g., True instead of true). Is this true or false? 
+	
+	
+	Answer: True
+	
+	
+	5. By default, the input() function always saves data as a String. If I type 10 into an input box, Python sees it as "10". To fix this, I should write:
+		age = int(input("Enter age: ")) 
+
+	
+
+	6. Which the value that is a Float:
+		100        "100.0"        100.0        True
+
+	Answer: 100.0
+
+
+	7. Write a program that asks a user for the name of an item and its price and stores this information in 2 separate variables.
+		○ The item name must be a String
+		○ The price must be a Float
+		○ Calculate a 10% discount (Price multiplied by 0.9) and print: "The new price for [item] is [discounted price]", where ‘[item]’ and ‘[discounted price]’ is where you reference your variables.
+	
+	Answer:
+  item = input("name an item")
+  price = float(input("how much does it cost"))
+	discount = price * 0.9
+  print("the new price is", discount)
+	
+	
+	8. A user wants to enter a "Member Code" which is just a single letter.
+		○ Ask the user for their Initial (Character)
+		○ Ask for their Age (Integer)
+		○ Create a Boolean variable called is_allowed. It should be True if the user is over 18.
+		○ Print: "Access Granted: [is_allowed]".
+	
+	
+	Answer:
+  initial = input("what does your name begin with
+  
