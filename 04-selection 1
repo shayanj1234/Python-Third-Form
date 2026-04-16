@@ -1,0 +1,11 @@
+code = "python"
+user = input("Enter the secret code: ")
+
+if user == code:
+    print("Access granted")
+
+
+num = int(input("Enter a number: "))
+
+if num % 2 ==  0:
+    print("Even number")
