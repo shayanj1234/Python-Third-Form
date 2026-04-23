@@ -1,0 +1,100 @@
+#For loop challenge1 (GCSECS.COM)
+
+#Rearrange the two lines of code below
+#to display the word "kebab" 10 times
+#HINT: There might be some indentation
+
+
+for i in range(10):
+    print("kebab")
+
+
+for i in range(0, 25, 3):
+    print(i)
+
+#The code below is mixed up
+#It should ask the user to enter their name.
+#It should then display the name twice
+#If possible, upgrade the code to...
+#ask the user how many times they want...
+#their name to be displayed
+name = str(input("Input your name>>>"))
+times = int(input("input how many times you want me to repeat"))
+for i in range(times):
+  print(name)
+#The code below is mixed up and has 1 error
+#It should ask the user to enter a times table
+#It should then display the times table
+#Also, you may need to fix indentation
+
+number = int(input("Enter a times table: "))
+for i in range(1, 13):
+  print("showing the",number,"times table")
+  print(i ,"x", number, "=", i*number)
+
+#The code below is mixed up and has an error
+#It should countdown from 10 then display "blast off"
+#Also, you may need to fix indentation
+
+
+
+for i in range(10, -1, -1):
+  print(i)
+print("!!Blast off!!")
+
+#The code below is mixed up and has an error
+#It should display the 7 colours of the rainbow...
+#...in order and count them too.
+#The colours are in a 1D array (or list)
+#HINT: You may have to fix indentation too
+
+
+rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
+for i in rainbow:  
+  number = 0 
+  number = number + 1
+  print ("Colour",number*2,"is", i)
+
+#Create some code that..
+#asks a user for an int below 100
+#displays a backwards count to zero
+
+num = int(input("give me a number under 100"))
+for i in range(num, -1, -1):
+  print(i)
+
+#Lottery number generator
+#use import random on line 1
+#use a = random.randint(0,50) to...
+#generate a random integer between 0 and 50
+#use a for loop to generate...
+#6 random integers 
+
+import random
+
+for i in range(6):
+  a = random.randint(0,50)
+  print(a)
+
+#Monopoly with extras.
+#To make the board game monopoly more fun..
+#Create an array with amounts of money..
+#ranging from 0 to 100000
+#use import random and also use...
+#array = random.choice(money)
+#to randomly choose an amount of money
+#use a for loop to assign a...
+#random amout of money to 8 players
+import random
+for i in range (1):
+  array = random.randint(0,100000)
+  print("Player has : £", array)
+
+
+
+
+houses = int(input("how many houses are booked in"))
+for i in range(houses):
+  walls = int(input("how many walls need to be painted?"))
+  for i in range(walls):
+    colour = str(input("what colour do you want it"))
