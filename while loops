@@ -1,0 +1,111 @@
+#Rearrange the four lines of code below
+#to get the while loop to work.
+#It should keep asking for the password until "kebab" is entered.
+#HINT: There might be some indentation
+
+password = ""
+while password != "kebab":
+  
+  password = input('Please enter a password: ')
+print ("correct password accepted")  
+
+
+#Rearrange the four lines of code below
+#to get the while loop to work.
+#It should keep asking "are we there yet" until "y" entered
+#You might need to indent some lines
+
+answer = "N"
+while answer != "Y":
+  print("Are we there yet?")
+  answer = str(input("Please respond, y or n: ").upper())
+
+print("Yay! We are there!!")
+
+
+#to get the while loop to work.
+#It should keep asking "Press 1 for choice or 2 to exit"
+#until "2" is entered
+#You might need to indent some lines
+
+
+StayInLoop = 1
+
+while StayInLoop != 2:
+  print("Press 1 for choice or 2 to exit")
+  StayInLoop = int(input("Please respond, 1 or 2: "))
+print("Exited")
+
+
+#There is an error in the code below
+#It is meant to display Loop 1 to Loop 10 then "End"
+#Can you fix it?
+
+loopCount = 1
+
+while loopCount < 11:
+  print("Loop", loopCount)
+  loopCount = loopCount + 1
+
+print("End")
+
+
+#Test this code by running it then hitting the enter button
+#The code should stay in a loop until a username is entered
+#Add a line of code that displays the username entered and..
+#some text that says "accepted" (this message should NOT be repeated)
+
+username = ""
+while not username:
+    username = str(input("Enter username: "))
+    print("your username is:", username)
+print("accepted")
+
+#There is a line of code missing below
+#The point of all the code is to generate a random number, then..
+#asks the user to try and guess it
+#Can you fix it?
+#Look through the code then enter a fix below
+
+
+import random
+
+number=random.randint(1,10)
+
+userGuess=int(input("Guess the number between 1-10"))
+
+
+while userGuess != number:
+
+    if number < userGuess:
+      userGuess=int(input("Guess to High, try again: "))
+    else:
+      userGuess=int(input("Guess to Low, try again: "))
+
+print("Yay! You got it correct!!!")
+
+number = int(input("Enter a times table: "))
+for i in range(1,13):
+  print(i ,"x", number, "=", i*number)
+print("showing the",number,"times table")
+"""
+timesTable = 0
+UserChoice = int(input("Enter a times-ta: "))
+
+while timesTable < 13:
+    print(timesTable)
+    
+
+#Use a while loop to display 0 to 10 on the screen
+
+num = -1
+while num != 10:
+  num = num + 1
+  print(num)
+
+language = ""
+while language != "python":
+  print("What coding language is this?")
+  language = str(input())
+
+print("Ok, Thanks")
